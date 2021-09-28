@@ -1,0 +1,98 @@
+/* ---------- Layout ---------- */
+html, body, #home{
+    height: 100%;
+}
+
+body{
+    background: url(../img/capa.png), 
+                url(../img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, sans-serif;
+}
+
+/* ---------- Tipografia ---------- */
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+/* ---------- Menu ---------- */
+
+nav.navbar-transparent{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor{
+    width: 1px;
+    background-color: white;
+    margin: 12px 15px;
+}
+
+/* ---------- Capa ---------- */
+.capa{
+    text-align: center;
+}
+
+.btn-custom{
+    color:white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-purple{
+    background-color: #7c25f8;
+}
+
+.btn-purple:hover{
+    background-color: #6207e3;
+    color:white;
+}
+
+.btn-white{
+    border: 2px solid white;
+}
+
+.btn-white:hover{
+    background-color: white;
+    color:black;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
