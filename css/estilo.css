@@ -1,6 +1,7 @@
 /* ---------- Layout ---------- */
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -17,6 +18,18 @@ h1{
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 /* ---------- Menu ---------- */
@@ -78,6 +91,75 @@ nav.navbar-transparent{
     color:black;
 }
 
+/* ---------- Conteúdos ---------- */
+
+.caixa{
+    padding: 20px 0px;
+}
+
+#servicos{
+    background-color: white;
+}
+
+#servicos h2, h3{
+    color: #7c25f8;
+}
+
+#recursos{
+    color:white;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+#recursos h2{
+    color: white;
+}
+
+.albuns{
+    padding: 10px 0;
+}
+
+.rotacao{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/* ---------- Rodapé ---------- */
+
+footer{
+    background-color: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -87,6 +169,13 @@ nav.navbar-transparent{
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .rotacao{
+        transform: rotate(0deg);
+    }
+
+    .secao-rodape{
+        padding: 20px;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
